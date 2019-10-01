@@ -15,12 +15,12 @@ time, mark, audio, video {
   padding: 0;
   border: 0;
   font-size: 100%;
-  font: inherit;
+  font: Hind;
   vertical-align: baseline; }
 
   h1 {
     font-size: 8em;
-    color: red;
+    color: blue;
   }
 body {
   line-height: 1; }

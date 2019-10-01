@@ -20,7 +20,7 @@ time, mark, audio, video {
 
   h1 {
     font-size: 8em;
-    color: blue;
+    color: #D73F09;
   }
 body {
   line-height: 1; }
@@ -33,7 +33,7 @@ table {
   border-spacing: 0; }
 
 caption, th, td {
-  text-align: left;
+  text-align: center;
   font-weight: normal;
   vertical-align: middle; }
 

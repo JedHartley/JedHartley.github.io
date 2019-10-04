@@ -3,13 +3,22 @@
 <html> 
         
   <head>
-
+    <style>
+    @import url('https://fonts.googleapis.com/css?family=Didact+Gothic&display=swap');
+    /* font-family: 'Didact Gothic', sans-serif; */
+    </style> 
     <meta charset="utf-8" />
     <link href="screen.css" media="screen" rel="stylesheet" type="text/css" />
+    <link href=”mystyles.css” rel=”stylesheet” />
     <title>Jed Hartley Portfolio</title>
     <style>
+        
+        main{
+          background: black;
+          
+        }
         body {
-          background:#000000;
+          background:black;
           padding: 100px;
         }
         div { 
@@ -17,22 +26,31 @@
         }
         div#picture {
           text-align: center
+        
         }
              
-      div#button {
-        text-align: center
-
-      }
-    
+        div#button {
+          text-align: center
+        
 </style>
   </head>
 
     <body class="index">
-      <div id="button" class="button">
-          <a href="https://github.com/JedHartley"><strong>Github</strong></a>
-          <a href="https://stackoverflow.com/users/12133406/jed-hartley?tab=profile"><strong>Stack Overflow</strong></a>
-          <a href="JedHartleyResume.pdf"><strong>Resume</strong></a>
-          <a href="mainproject.html"><strong>Main Project</strong></a>
+        
+      <div id="button" class="button">    
+          <a href="https://github.com/JedHartley">
+              <img src="github.png" alt="GitHub" style="width:55px;height:42px;border:0">
+          </a>
+          <a href="https://stackoverflow.com/users/12133406/jed-hartley">
+              <img src="stackoverflow.png" alt="Stackoverflow" style="width:60px;height:42px;border:0">
+          </a> 
+          <a href="JedHartleyResume.pdf">
+              <img src="resume.png" alt="Resume" style="width:60px;height:42px ;border:0">
+          </a> 
+          <a href="mainproject.html">
+                <img src="underconstruction.png" alt="Main project" style="width:55px;height:42px ;border:0">
+          </a>
+          <p style="color:white;">Connect With Me!!</p>
       </div>
      
       <div id="main" role="main">
@@ -44,7 +62,7 @@
    
       </div>
       <div id="picture">
-        <img src= "reeseandjed.jpeg" class= "image" width= "200"/>
+        <img src= "reeseandjed.jpeg" class= "image" width= "400"/>
       </div>
     
 

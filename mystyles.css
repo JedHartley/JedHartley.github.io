@@ -1,7 +1,18 @@
 
-h1{
-    background: linear-gradient(to bottom, #ff6600 0%, #000000 100%);
+#jumbotron{
+  background-color: #000000;
+  color:white
+  
+}
 
+#navbarsExampleDefault{
+  background-color: #000000
+}
+
+h1{
+  background: linear-gradient(to bottom, #ff6600 0%, #000000 100%);
+    color: white
+    
 }
 
 h1 {
@@ -10,4 +21,26 @@ h1 {
 }
 
 #main {
-  padding: 50px; }
+  padding: 50px;
+  color: white
+
+ }
+
+
+  body {
+  font-family: 'Didact Gothic', sans-serif;
+  background-color: black;
+  color: white
+
+}
+
+
+
+#picture {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+  
+}
+

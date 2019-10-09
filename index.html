@@ -14,6 +14,13 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     <!-- Custom styles for this template -->
     <link href="mystyles.css" rel="stylesheet">
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+        document.getElementById("mainHeader").onclick = function() {
+            this.style.color = 'grey'
+  }
+})
+    </script>
     
 
 
@@ -62,7 +69,7 @@
       <!-- Main jumbotron for a primary marketing message or call to action -->
       <div class="jumbotron" id="jumbotron">
         <div class="container">
-          <h1 onclick="this.style.color='grey';"class="display-3">Jed Hartley</h1>
+          <h1 id="mainHeader"; class="display-3">Jed Hartley</h1>
           <p>I am majoring in computer science at OSU Cascades. This is my portfolio to keep my computer science projects organized.</p>
           <p><a class="btn btn-primary btn-lg" href="#" role="button">Learn more &raquo;</a></p>
         </div>

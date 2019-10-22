@@ -1,7 +1,8 @@
 
 #jumbotron{
-  background-color: #000000;
+background-color: #000000;
   color:white
+  
   
 }
 
@@ -10,8 +11,10 @@
 }
 
 h1{
-  background: linear-gradient(to bottom, #ff6600 0%, #000000 100%);
+  background: linear-gradient(to top, #ff6600 0%, #000000 75%);
+
     color: white;
+  
     
     
     
@@ -49,10 +52,14 @@ h1 {
 
 }
 footer{
-  text-align: center
+  text-align: right
 }
 
 /* Move down content because we have a fixed navbar that is 3.5rem tall */
 body {
-  padding-top: 3.5rem;
+  padding-top: 5.5rem;
+}
+
+body {
+  background-image: url("backgroundimage.jpg");
 }

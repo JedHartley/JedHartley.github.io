@@ -9,6 +9,17 @@ background-color: #000000;
 #navbarsExampleDefault{
   background-color: #000000
 }
+/* hr{
+  border: 10px solid #ff6600;
+  border-radius: 5px;
+} */
+ hr {
+        border: 1px dashed #ff6600;
+        width: 100%;
+        margin: auto;
+        margin-top: 5%;
+        margin-bottom: 5%;
+    }
 
 h1{
   background: linear-gradient(to top, #ff6600 0%, #000000 75%);
@@ -22,9 +33,17 @@ h1{
 
 h1 {
   font-size: 5em;
-  color: white
+  color: white;
+  text-align: center;
 }
 
+h2{
+  text-align: center;
+}
+
+p {
+  text-align: center;
+}
 #main {
   padding: 50px;
   color: white
@@ -45,12 +64,12 @@ h1 {
   margin-left: auto;
   margin-right: auto;
   width: 27%;
-  
+
  
 
 }
 footer{
-  text-align: right
+  text-align: center
 }
 
 /* Move down content because we have a fixed navbar that is 3.5rem tall */
@@ -62,5 +81,10 @@ body {
   background-image: url("backgroundimage.jpg");
 }
 img {
-  border-radius: 20%;
+  border-radius: 10%;
+  position: center;
+}
+
+.btn{
+  border: #ff6600;
 }
